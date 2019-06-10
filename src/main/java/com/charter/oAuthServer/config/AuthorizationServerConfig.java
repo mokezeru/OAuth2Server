@@ -14,6 +14,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
     static final String CLIEN_ID = "moke-client";
+    //static final String CLIENT_SECRET = "moke-secret";
     static final String CLIENT_SECRET = "$2a$04$3C0Y5u4E3fn7b1SGiAn8mOOp7wuu.AHCPjL1XtWN12ng28e0fRKQO";
     static final String GRANT_TYPE_PASSWORD = "password";
     static final String AUTHORIZATION_CODE = "authorization_code";
